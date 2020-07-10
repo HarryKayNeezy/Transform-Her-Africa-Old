@@ -1,5 +1,22 @@
+/* Author: Harry Kwabena Ablor */
+/* 1. GLOBAL STYLES */
+/* 2. HEADER */
+/* 3. HERO */
+/* 4. DISCOVER OUR STORY */
+/* 5. TASTEFUL RECIPES */
+/* 6. DISCOVER OUR MENU */
+/* 7. THE PERFECT BLEND */
+/* 8. FOOTER */
+/* 9. MEDIA QUERIES */
+/* 10. ANIMATIONS */
+
+
 @import url('https://fonts.googleapis.com/css?family=Cabin|Herr+Von+Muellerhoff|Source+Sans+Pro:400,900&display=swap');
-/*Global styles*/
+
+/* -----------------
+     1. GLOBAL STYLES
+-------------------*/
+
 *,
 *::before,
 *::after{
@@ -52,7 +69,9 @@ p {
     padding: 0 2.4rem;
 }
 
-/* header */
+/* -----------------
+     2. HEADER
+-------------------*/
 
 header {
     width: 100%;
@@ -158,11 +177,24 @@ header {
     color: var(--secondary-font-color);
 }
 
-/* Hero */
+/* -----------------
+     3. HERO
+-------------------*/
+
 .hero {
     width: 100%;
     height: 100vh;
     background: url("img/gendergender.jpg") center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-about {
+    width: 100%;
+    height: 100vh;
+    background: url("img/about1.jpg") center no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -201,6 +233,17 @@ header {
     animation: scale .5s forwards;
 }
 
+.headline-about {
+    color: #000;
+    font-size: 3.7rem;
+    font-family: var(--main-font);
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: .5rem;
+    margin-right: .5rem;
+    animation: scale .5s forwards;
+}
+
 .separator {
     display: flex;
     align-items: center;
@@ -216,6 +259,10 @@ header {
     opacity: 0;
     animation: grow 2s forwards;
     animation-delay: .9s;
+}
+
+.line-about {
+    background-color: #000;
 }
 
 .line-right::before,
@@ -254,6 +301,7 @@ header {
     animation-delay: 1.5s;
 }
 
+
 .headline-description h5 {
     color: #fff;
     font-size: 1.4rem;
@@ -271,6 +319,7 @@ header {
      margin-right: -2px;
  }
 
+
  .cta-btn {
      font-size: 1.1rem;
      background-color: #fff;
@@ -286,7 +335,15 @@ header {
      background-color: var(--secondary-font-color);
  }
 
-/* Discover Our Story */
+ /* .btn-about {
+    background-color: black;
+} */
+
+
+/* -----------------
+     4. DISCOVER OUR STORY
+-------------------*/
+
 .global-headline{
     text-align: center;
     margin-top: 3.9rem;
@@ -359,7 +416,11 @@ header {
     background-color: var(--main-font-color-dark);
 }
 
-/* tasteful recipes */
+
+/* -----------------
+     5. TASTEFUL RECIPES
+-------------------*/
+
 .tasteful-recipes {
     background: url("img/laptop.jpg") center no-repeat;
     background-size: cover;
@@ -372,7 +433,10 @@ header {
     text-shadow: 2px 2px #000;
 }
 
-/* Discover-our-menu */
+/* -----------------
+     6. DISCOVER OUR MENU
+-------------------*/
+
 .image-group {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -384,13 +448,19 @@ header {
     margin-bottom: 0;
 }
 
-/* the perfect blend */
+/* -----------------
+     7. THE PERFECT BLEND
+-------------------*/
+
 .perfect-blend {
     background: url("img/meeting.jpg") center no-repeat;
     background-size: cover;
 }
 
-/* .footer */
+/* -----------------
+     8. FOOTER
+-------------------*/
+
 footer {
     padding: 7.9rem 0;
     background-color: #121212;
@@ -489,7 +559,10 @@ footer {
     margin-left: 10.5rem;
 }
 
-/* Media Queries */
+/* -----------------
+     9. MEDIA QUERIES
+-------------------*/
+
 @media screen and (min-width: 900px) {
     section {
         padding: 7.9rem;
@@ -525,7 +598,7 @@ footer {
     }
 
     .nav-link {
-        font-size: 1.3rem;
+        font-size: 1.3rem; 
     }
 
     .active {
@@ -603,7 +676,10 @@ footer {
     }
 }
 
-/* Animations */
+/* -----------------
+     10. ANIMATIONS
+-------------------*/
+
 @keyframes fadeUp {
     0% {
         transform: translateY(4rem);
@@ -666,3 +742,6 @@ footer {
         transform: translateY(-1rem);
     }
 }
+
+
+/* ABOUT SECTION */
