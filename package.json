@@ -1,0 +1,22 @@
+{
+  "name": "transform-her-africa",
+  "version": "1.0.0",
+  "description": "website for Transform Her, a gender equality organization in Africa, aiming to empower, educate and train women in STEM jobs",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarryKayNeezy/Transform-Her-Africa.git"
+  },
+  "author": "Harry Kay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HarryKayNeezy/Transform-Her-Africa/issues"
+  },
+  "homepage": "https://github.com/HarryKayNeezy/Transform-Her-Africa#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
