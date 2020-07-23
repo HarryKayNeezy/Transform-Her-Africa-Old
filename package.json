@@ -4,6 +4,7 @@
   "description": "website for Transform Her, a gender equality organization in Africa, aiming to empower, educate and train women in STEM jobs",
   "main": "main.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
