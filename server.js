@@ -8,23 +8,23 @@ app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname, '/index.html'));
 });
 
-app.get('/index.html', function(req, res) {
+app.get('/home', function(req, res) {
     res.sendFile(path.join(__dirname, '/index.html'));
 });
 
-app.get('/about.html', function(req, res) {
+app.get('/about', function(req, res) {
     res.sendFile(path.join(__dirname, '/about.html'));
 });
 
-app.get('/courses.html', function(req, res) {
+app.get('/courses', function(req, res) {
     res.sendFile(path.join(__dirname, '/courses.html'));
 });
 
-app.get('/contact.html', function(req, res) {
+app.get('/contact', function(req, res) {
     res.sendFile(path.join(__dirname, '/contact.html'));
 });
 
-app.get('/testimonials.html', function(req, res) {
+app.get('/testimonials', function(req, res) {
     res.sendFile(path.join(__dirname, '/testimonials.html'));
 });
 
