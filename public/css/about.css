@@ -19,13 +19,13 @@
 
 *,
 *::before,
-*::after{
+*::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-:root{
+:root {
     --main-font: 'Source Sans Pro', sans-serif;
     --secondary-font: 'Herr Von Muellerhoff', cursive;
     --body-font: 'Cabin', sans-serif;
@@ -184,13 +184,22 @@ header {
 .hero {
     width: 100%;
     height: 100vh;
-    background: url("../img/laptop3.jpg") center no-repeat;
+    background: url("../img/gendergender.jpg") center no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
     text-align: center;
 }
 
+.hero-about {
+    width: 100%;
+    height: 100vh;
+    background: url("../img/about1.jpg") center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
 
 .sub-headline {
     font-size: 8.5rem;
@@ -222,10 +231,6 @@ header {
     letter-spacing: .5rem;
     margin-right: .5rem;
     animation: scale .5s forwards;
-}
-
-.passive {
-    color: #000;
 }
 
 .headline-about {
@@ -739,4 +744,4 @@ footer {
 }
 
 
-/* TESTIMONIALS SECTION */
+/* ABOUT SECTION */
