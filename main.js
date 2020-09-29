@@ -1,4 +1,4 @@
-// select element function
+// select elemt function
 const selectElement = function (element) {
     return document.querySelector(element);
 };
